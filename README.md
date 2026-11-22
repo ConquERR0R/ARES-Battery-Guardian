@@ -219,10 +219,16 @@ Known limitations:
 
 Consult the documentation in `docs/` for additional testing details and compatibility information.
 
+## Security and Privacy
+
+- [Code Signing Policy](docs/CODE_SIGNING_POLICY.md)
+- [Privacy Policy](docs/PRIVACY_POLICY.md)
+
+ARES Battery Guardian is applying for free code signing through the SignPath Foundation. The current installer is unsigned until approval and signing are completed.
+
 ## License
 
 ARES Battery Guardian is distributed under the MIT License. See [LICENSE](LICENSE) for details.
 
 Contributions, bug reports, and feature suggestions are welcome.
-=======
-# ARES-Battery-Guardian
+
