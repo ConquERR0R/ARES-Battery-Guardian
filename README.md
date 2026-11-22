@@ -224,3 +224,5 @@ Consult the documentation in `docs/` for additional testing details and compatib
 ARES Battery Guardian is distributed under the MIT License. See [LICENSE](LICENSE) for details.
 
 Contributions, bug reports, and feature suggestions are welcome.
+=======
+# ARES-Battery-Guardian
