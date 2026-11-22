@@ -1,0 +1,46 @@
+ARES Battery Guardian 2.0.0 Beta 1
+
+This is a BETA release. Please read before installing.
+
+What ARES does
+- Monitors your battery and charger, records history, and warns you (alarm, notification and
+  an optional full-screen reminder) when the battery reaches the limits you set.
+- ARES itself never switches charging off. Where a documented BIOS charge setting is available
+  (for example Dell Custom Charge, which needs administrator rights), ARES can ask the firmware to
+  use your limits; the laptop firmware, not ARES, then controls charging. Otherwise you unplug
+  the charger when ARES tells you to. The charging state shown always comes from Windows
+  battery telemetry.
+
+Experimental
+- Smart Wake-Up Protection is EXPERIMENTAL. It has not yet been confirmed on any laptop
+  that Windows wakes the computer from Sleep to run the battery check. It is off unless you
+  turned it on.
+
+Optional: Smart Audio Override (off by default)
+- While a protection alarm sounds, ARES can un-mute Windows and set the volume to 100%, then
+  restore your volume and mute setting. If you change the volume during the alarm, your choice is
+  kept. Turn it on in Settings > D.
+
+Battery History hover details
+- Move the mouse over the History chart to see the nearest recorded point: exact battery
+  percentage, time, charging or discharging, and voltage and capacity when the battery driver
+  recorded them.
+
+Hardware Diagnostics
+- On a PC without supported firmware charge control, the Dashboard no longer shows the long
+  compatibility notice. It says "Not available on this PC (monitoring only)" in the Charge
+  control card. The full details are in Settings > I. Hardware Diagnostics.
+
+Your data is kept
+- Settings, battery history, sessions, events, custom alarm-sound paths and the database are
+  stored in %LOCALAPPDATA%\ARES Battery Guardian. Installing, updating, uninstalling and
+  reinstalling never delete or overwrite that folder.
+
+Installation
+- Installs for the current Windows user only and does not need administrator rights.
+- Program folder: %LOCALAPPDATA%\Programs\ARES Battery Guardian
+- Start at Windows sign-in is controlled by the "Start with Windows" setting inside ARES
+  (on by default); an existing choice is kept.
+- Uninstalling removes the program, its shortcuts, the Windows sign-in entry and the Smart
+  Wake-Up task that point at this copy. Your data folder is left in place; delete it yourself
+  if you no longer want the history.

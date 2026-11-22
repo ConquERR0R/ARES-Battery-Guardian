@@ -1,0 +1,52 @@
+__pycache__/
+*.pyc
+.venv/
+build/
+dist/
+logs/*.log*
+data/*.db-wal
+data/*.db-shm
+data/ares.lock
+build_v2beta/
+dist_v2beta/
+installer_output/
+packaging/logs/
+
+# ARES private data
+data/
+logs/
+*.db
+*.sqlite
+*.sqlite3
+*.db-wal
+*.db-shm
+
+# Python environment and cache
+.venv/
+__pycache__/
+*.py[cod]
+
+# Build and distribution files
+build/
+build_release/
+dist/
+dist_v2beta/
+build_v2beta/
+release/
+installer_output/
+
+# Packaging logs
+packaging/logs/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Backups
+*.bak
+*.backup
+*.old
+
+# Local packaging backups
+packaging/backup-*/
